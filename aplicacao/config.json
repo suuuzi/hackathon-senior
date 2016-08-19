@@ -1,0 +1,18 @@
+{
+    "url": "http://localhost:8080/dist",
+    "iframes": {
+        "items": [{
+            "id": "teste"
+        }]
+    },
+    "menu": {
+        "label": "Video Analytics",
+        "children": [{
+            "label": "Dashboard",
+            "path": {
+                "category": "iframes",
+                "menuId": "http://localhost:8080/dist/"
+            }
+        }]
+    }
+}

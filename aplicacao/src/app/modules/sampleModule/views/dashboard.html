@@ -88,18 +88,18 @@
             <div class="col-sm-9 col-md-9" style="padding-left: 0px;">
                 <div class="row" style="padding-bottom: 10;">
                     <div class="col-sm-6 col-md-6" style="text-align: right;">
-                      <img src="{{corredor1.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(1)"/>
+                        <img src="{{corredor1.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(1)" />
                     </div>
                     <div class="col-sm-6 col-md-6">
-                      <img src="{{corredor2.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(2)"/>
+                        <img src="{{corredor2.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(2)" />
                     </div>
-                  </div>
-                  <div class="row">
+                </div>
+                <div class="row">
                     <div class="col-sm-6 col-md-6" style="text-align: right;">
-                      <img src="{{corredor3.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(3)"/>
+                        <img src="{{corredor3.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(3)" />
                     </div>
                     <div class="col-sm-6 col-md-6">
-                      <img src="{{corredor4.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(4)"/>
+                        <img src="{{corredor4.imgAtual}}" style="width: 400; height: 250;" ng-click="getClassification(4)" />
                     </div>
                 </div>
             </div>
@@ -119,9 +119,9 @@
                                 <br>
                                 <span class="just_for_frontify_middle" ng-show="n.pessoa">{{n.pessoa}} irá repor os produtos</span>
                                 <br>
-                                <button class="btn btn-link" ng-show="n.pessoa" ng-click="getClassification(n.corredor); removeNotification(n.corredor)">Marcar como concluído
-                                <i class="fa fa-check" alt="Marcar como concluído" style="color: #008000;"aria-hidden="true"></i>
-                              </button>
+                                <button class="btn btn-link" style="padding-left: 0px;" ng-show="n.pessoa" ng-click="getClassification(n.corredor); removeNotification(n.corredor)">Marcar como concluído
+                                    <i class="fa fa-check" alt="Marcar como concluído" style="color: #008000;" aria-hidden="true"></i>
+                                </button>
                             </div>
                         </div>
                     </div>
